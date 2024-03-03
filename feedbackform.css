@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo img{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.heads{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+.section{
+    width: 650px;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    margin: auto;
+    padding: 25px 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+body{
+    background-color:#f7f8f3 ;
+}
+.post-name{
+    display: flex;
+    gap: 10px;
+}
+input{
+    font-size: 16px;
+    padding: 2px 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type=date]{
+    width: 200px;
+}
+input[type=time]{
+    width: 200px;
+}
+input[type=text]{
+    width: 200px;
+}
+.check{
+    display: flex;
+    gap: 20px;
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.radio1{
+    gap: 20px;
+}
+textarea{
+    width: 300px;
+    height: 90px;
+    padding: 10px;
+}
+.public{
+    padding-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.public1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.btn button{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(3, 223, 3);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button:hover{
+
+    background-color: rgb(2, 160, 2);
+    transition: background-color 2s ease-out;
+}
+.confi{
+    display: flex;
+    justify-content: cenetr;
+    text-align: center;
+    font-size: 24px;
+}
+.rate {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.s1{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width :773px) {
+
+    .section{
+        width: 600px;
+        font-family: "Lato", sans-serif;
+        background-color: white;
+        margin: auto;
+        padding: 25px 35px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    
+    }
+}
+@media screen and (max-width :693px) {
+
+    .section{
+        width: 500px;
+        font-family: "Lato", sans-serif;
+        background-color: white;
+        margin: auto;
+        padding: 25px 35px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    
+    }
+}
+@media screen and (max-width :586px) {
+
+    .section{
+        width: auto;
+        font-family: "Lato", sans-serif;
+        background-color: white;
+        margin: auto;
+        padding: 25px 35px;
+
+        input[type=text]{
+            width: 150px;
+        }
+    
+    }
+}
+@media screen and (max-width : 500px) {
+    .post-name{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .radio{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    textarea{
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:366px) {
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width : 325px) {
+    textarea{
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+    }
+    
+}
+

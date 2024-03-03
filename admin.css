@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #f7f8f3;
+
+}
+
+.title1 {
+    text-align: center;
+    color: #281859;
+}
+
+
+.title1 :nth-child(1) {
+    font-family: "Cabin", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.title1 :nth-child(2) {
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header{
+    background-color: #281859;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+
+}
+.header-admin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.header ul li{
+    list-style: none;
+    padding: 9px 10px 10px 15px;
+    
+}
+
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .header ul li:hover{
+    background-color: white;
+} */
+
+.header ul li a:hover{
+    text-decoration: underline;
+   
+}
+.logout button{
+    padding: 5px 10px 5px 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #5434b5 ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.logout button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logout button:hover{
+    background-color: #472a9e ;
+    transition: background-color 1s ease-out;
+    text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width :773px) {
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        background-color: #f7f8f3;
+    }
+}
+
+body {
+    background-color: #f7f8f3;
+}
+
+.admin-head {
+    padding: 64px 0px 152px;
+    background-color: #624bff;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.admin-cards {
+    position: absolute;
+    margin-top: -140px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+    border: 0;
+    border-radius: 0.5rem;
+    width: 253.1px;
+    height: 169.7px;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.card1:hover {
+    background-color: aliceblue;
+    transition: background-color 1s ease-out;
+    cursor: pointer;
+}
+
+.card1 :first-child {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 :nth-child(2) {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card1 div img {
+    width: 30px;
+}
+
+.section {
+    margin-top: 150px;
+    padding: 0px 40px 40px 40px;
+
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+td:hover {
+    color: blue;
+    transition: background-color 1s ease-out;
+    cursor: pointer;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+  }
+  
+  .star {
+    display: inline-block;
+    font-size: 25px;
+    color: gold;
+  }
+table {
+    width: 100%;
+}
+
+td {
+
+    background-color: white;
+    padding: 12px 24px;
+
+}
+
+th {
+
+    background-color: rgb(244, 244, 244);
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: left;
+
+}
+
+table {
+    box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    border: 2px solid rgb(230, 230, 230);
+
+}
+
+tr {
+    border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+.section-card-head {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+tr td div {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    font-family: "Lato", sans-serif;
+    background-color: #281859;
+    padding: 20px;
+}
+
+@media screen and (max-width:706px) {
+    .section {
+        margin-top: 402px;
+
+        padding: 0px 20px 20px 20px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        font-family: "Lato", sans-serif;
+        box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+        border: 0;
+        border-radius: 0.5rem;
+        width: 150.1px;
+        height: 142.7px;
+        padding: 20px;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .section {
+        margin-top: 343px;
+        padding: 0px 10px 10px 10px;
+        overflow: auto;
+    }
+
+}

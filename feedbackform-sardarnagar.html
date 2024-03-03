@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedbackform.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="heads">
+            <div class="logo"><div><img src="./assets/gujaratpolicelogo.png" alt=""></div><div>Sardarnagar Police Station</div></div>
+            <div class="head">Police Station Visitor Feedback</div>
+        </div>
+
+        <form action="feedbackform-sardarnagar.php"   method="post">
+
+            <div class="first">
+                <div>Name of the police station/post officer/other employee with whom you met or talked (optional)? /
+                    પોલીસ સ્ટેશન/પોસ્ટ ઓફિસર/અન્ય કર્મચારીનું નામ જેની સાથે તમે મળ્યા અથવા વાત કરી (વૈકલ્પિક)?</div>
+                <div class="post-name"><input type="text" placeholder="post">
+                    <input type="text" placeholder="name"  name="post">
+                </div>
+            </div>
+
+
+
+            <div class="first">
+                <div> On which date did you go to the police station/post (select date)? / તમે કયા દિવસે પોલીસ
+                    સ્ટેશન/ચોકી (તારીખ પસંદ કરો) પર ગયા હતા?</div>
+                <input type="date" name="date">
+            </div>
+
+
+
+            <div class="first">
+                <div>
+                    Time of arrival at police station/post /
+                    પોલીસ સ્ટેશન/ચોકી પર પહોંચવાનો સમય </div><input type="time" name="time1">
+            </div>
+
+
+            <div class="first">
+                <div> Departure time from police station/post /
+                    પોલીસ સ્ટેશન/ચોકીથી પ્રસ્થાનનો સમય</div> <input type="time"  name="time2">
+            </div>
+
+
+            <div class="first">
+                <div>For which case did you approach the police station/post (mandatory)?
+                    / તમે કયા કેસ માટે પોલીસ સ્ટેશન/પોસ્ટનો સંપર્ક કર્યો (ફરજિયાત)? </div>
+                <div class="check">
+                    <input type="checkbox" name="checkbox1" value="Theft of mobile/vehicle/jewellery/ cash etc."> <label for="">Theft of mobile/vehicle/jewellery/ cash etc. /
+                        મોબાઈલ/વાહન/ઝવેરાત/રોકડ વગેરેની ચોરી.</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox2" value="Online Fraud"> <label for="">Online Fraud / ઓનલાઇન છેતરપિંડી</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox3" value="Women related crimes/domestic violence"> <label for="">Women related crimes/domestic violence / મહિલા સંબંધિત
+                        ગુનાઓ/ઘરેલું હિંસા</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox4" value="scuffle/beating/abuse"> <label for="">scuffle/beating/abuse / ઝપાઝપી/પીટાઈ/દુરુપયોગ</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox5" value="money transaction/fraud"> <label for="">money transaction/fraud / પૈસાની લેવડદેવડ/છેતરપિંડી</label>
+                </div>
+
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox6" value="haracter Verification (Verification Report)"> <label for="">Character Verification (Verification Report) / ચકાસણી અહેવાલ</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox7" value="Missing/ Kidnapping"> <label for=""> Missing/ Kidnapping / ગુમ/અપહરણ</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox8" value="gambling/speculation"> <label for=""> gambling/speculation / જુગાર/સટ્ટાખોરી</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox9" value="Information related to drugs/illicit liquor/forests"> <label for=""> Information related to drugs/illicit liquor/forests / ડ્રગ્સ/ગેરકાયદેસર દારૂ/જંગલોને લગતી માહિતી</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox10" value="Corruption"> <label for=""> Corruption / ભ્રષ્ટાચાર</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox11" value="Traffic related/challan/accident"> <label for=""> Traffic related/challan/accident / ટ્રાફિક સંબંધિત/ચલણ/અકસ્માત</label>
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="checkbox12" value="Property related disputes"> <label for=""> Property related disputes / મિલકત સંબંધિત વિવાદો</label>
+                </div> 
+
+
+           
+
+            </div>
+
+
+            <div class="first">
+                <div>Was your problem solved (required)? / શું તમારી સમસ્યા હલ કરવામાં આવી હતી (જરૂરી)?</div>
+                <div class="radio">
+                    <div class="radio1"><input type="radio" name="select1" value="Yes"><label for="">Yes</label></div>
+                <div class="radio1"><input type="radio" name="select1" value="No"><label for="">No</label></div>   
+                <div class="radio1"><input type="radio" name="select1" value="In Process"><label for="">In Process</label></div> 
+            </div>
+            </div>
+            <div class="first"><div>Were you treated with respect (essential)? / શું તમારી સાથે આદર (આવશ્યક) વ્યવહાર કરવામાં આવ્યો હતો?</div>
+            <div class="radio">
+                <div class="radio1"><input type="radio" name="select2" value="Yes"><label for="">Yes</label></div>
+            <div class="radio1"><input type="radio" name="select2" value="No"><label for="">No</label></div> 
+            <div class="radio1"><input type="radio" name="select2" value="Don't know"><label for="">
+                Don't know</label></div>   
+        </div>
+        </div>
+            <div class="first"><div>Did any officer ask you for money, papers, etc. for your work (obligatory)? / શું કોઈ અધિકારીએ તમારી પાસે તમારા કામ (ફરજિયાત) માટે પૈસા, કાગળો વગેરે માંગ્યા છે?</div>
+            <div class="radio">
+                <div class="radio1"><input type="radio" name="select3" value="Yes"><label for="">Yes</label></div>
+            <div class="radio1"><input type="radio" name="select3" value="No"><label for="">No</label></div> 
+            <div class="radio1"><input type="radio" name="select3" value="Don't know"><label for="">
+                Don't know</label></div>   
+        </div>
+        </div>
+        <div class="first">
+            <div>
+                Any comments on the police station/post staff (optional)? / પોલીસ સ્ટેશન/પોસ્ટ સ્ટાફ પર કોઈ ટિપ્પણી (વૈકલ્પિક)?
+            </div>
+            <textarea name="textarea1" id="" cols="20" rows="20"></textarea>
+        </div>
+        <div class="first">
+            <div>
+                Any comment or suggestion (optional) related to police station/post? / પોલીસ સ્ટેશન/પોસ્ટ સંબંધિત કોઈ ટિપ્પણી અથવા સૂચન (વૈકલ્પિક)?
+            </div>
+            <textarea name="textarea2" id="" cols="20" rows="20"></textarea>
+        </div>
+        <div class=" first rate">
+            Rate Your Experience :-
+            <div>
+               <div class="s1"><input type="radio" name="s3"> 1 Star</div> 
+               <div class="s1"><input type="radio" name="s3"> 2 Star</div> 
+               <div class="s1"><input type="radio" name="s3"> 3 Star</div> 
+               <div class="s1"><input type="radio" name="s3"> 4 Star</div> 
+               <div class="s1"><input type="radio" name="s3"> 5 Star</div> 
+            </div>
+        </div>
+
+<div class="public">Visitor Details / મુલાકાતીઓની વિગતો</div>
+<div class="public1"><div class="first"><div>Contact No.</div> <input type="text"  name="mobile_no" naplaceholder="Mobile"></div>
+<div class="first"><div>Name</div> <input type="text" name="name" placeholder="Name"></div></div>
+
+<div class="btn" name="submit"><button>Submit</button></div>
+<div class="confi">
+    Your personal details will be kept strictly confidential / તમારી અંગત વિગતો સખત રીતે ગુપ્ત રાખવામાં આવશે </div>
+        </form>
+    </div>
+</body>
+
+</html>

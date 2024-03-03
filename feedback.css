@@ -35,6 +35,8 @@
 }
 
 
+
+
 .title1 :nth-child(2) {
     font-family: "Cabin", sans-serif;
     font-size: 18px;
@@ -108,7 +110,6 @@
 
 .header ul li a:hover{
     text-decoration: underline;
-   
 }
 
 
@@ -120,6 +121,7 @@
     font-size: 13px;
     font-weight: 400;
     overflow: auto;
+    background-color: #f7f8f3;
 }
 
 .cards {
@@ -127,7 +129,8 @@
     flex-wrap: wrap;
     gap: 28px;
     padding: 20px 20px;
-
+    /* flex-direction: column; */
+   
 }
 
 
@@ -141,12 +144,24 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #bebaba;
-    width: 500px;
-    margin: 20px;
-    
+    background-color: white;
+    width: 600px;
+    margin: 20px;  
+    gap: 25px;     
+  }
+  .info-direct{
+    display: flex;
+    gap: 10px;
   }
   
+
+  .card img{
+     width: 100px;
+     height: 100px;
+  }
+
+
+
   .info {
     flex: 1;
   }
@@ -177,6 +192,13 @@
     background-color: #0056b3;
   }
   
+
+  .qr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 
@@ -220,6 +242,19 @@ footer {
     padding: 20px;
 }
 
+@media screen and (max-width:1469px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 28px;
+        padding: 20px 20px;
+        /* flex-direction: column; */
+       
+    }
+    
+}
+
 @media screen and (max-width:1071px) {
     .news-header {
         width: 46vw;
@@ -243,6 +278,7 @@ footer {
             width: 95vw;
         }
 
+
     }
 
     @media screen and (max-width :650px) {
@@ -254,8 +290,29 @@ footer {
             display: flex;
             flex-direction: column;
         }
+        .info-direct{
+            display: flex;
+            flex-direction: column;
+        }
+        .arrow{
+            display: none;
+
+        }
+        .info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
 
 
     }
 
+}
+@media screen and (max-width:488px) {
+    .card{
+        margin: 7px;
+
+    }
+    
 }
